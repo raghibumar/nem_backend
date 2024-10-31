@@ -40,5 +40,5 @@ app.listen(port, async () => {
     console.log("Trouble connecting to DB");
     console.log(err);
   }
-  console.log("server is running on port 8080");
+  console.log(`server is running on port ${port}`);
 });
